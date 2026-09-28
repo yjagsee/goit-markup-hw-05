@@ -135,7 +135,7 @@
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #434455;
-    border: 1px solid #2e2f4240;
+    border: 1px solid #2E2F4266;
     border-radius: 4px;
     padding: 8px 16px;
     width: 100%;
@@ -143,6 +143,7 @@
     resize: none;
     transition: border-color 250ms ease-in-out;
     outline: none;
+    background-color: #fcfcfc;
 }
 
 .modal-form-comment::placeholder {
