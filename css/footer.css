@@ -56,7 +56,6 @@
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: #31d0aa;
-    transition: background-color 250ms ease;
 }
 
 .footer .icon {

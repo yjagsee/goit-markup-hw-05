@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(46, 47, 66, 0.4);
+    background-color: rgba(46, 47, 66, 0.4);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -87,7 +87,8 @@
     transition-property: color, background-color, border-color;
 }
 
-.modal-btn:hover {
+.modal-btn:hover,
+.modal-btn:focus {
     color: #fff;
     background-color: #404bbf;
     border-color: #404bbf;
@@ -115,15 +116,24 @@
 }
 
 .modal-form-input {
+    color: #434455;
 }
 
 .modal-form-label {
     display: block;
     color: #8e8f99;
     margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
 
 .modal-form-comment {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #434455;
     border: 1px solid #2e2f4240;
     border-radius: 4px;
     padding: 8px 16px;
@@ -134,11 +144,17 @@
     outline: none;
 }
 
+.modal-form-comment::placeholder {
+    color: rgba(46, 47, 66, 0.4);
+    opacity: 1;
+}
+
 .modal-form-comment:focus {
     border-color: #4d5ae5;
 }
 
 .modal-form-agreement {
+    margin-top: 16px;
     margin-bottom: 24px;
 }
 
@@ -169,11 +185,11 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 14px;
-    height: 6px;
+    width: 16px;
+    height: 16px;
     margin-right: 8px;
     border-radius: 2px;
-    border: 0.88px solid #404bbf;
+    border: 0.88px solid rgba(46, 47, 66, 0.4);
     transition: 300ms ease-in-out;
     transition-property: background-color, border-color;
     cursor: pointer;
@@ -200,7 +216,7 @@
 }
 
 .modal-form-link {
-    line-height: 133%;
+    line-height: 117%;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
