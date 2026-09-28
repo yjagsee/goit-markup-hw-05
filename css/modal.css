@@ -51,6 +51,7 @@
     min-height: 40px;
     outline: transparent;
     transition: border-color 250ms ease-in-out;
+    background-color: transparent;
 }
 
 .modal-form-input:focus {
@@ -143,7 +144,7 @@
     resize: none;
     transition: border-color 250ms ease-in-out;
     outline: none;
-    background-color: #fcfcfc;
+    background-color: transparent;
 }
 
 .modal-form-comment::placeholder {
