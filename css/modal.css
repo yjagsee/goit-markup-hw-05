@@ -42,7 +42,8 @@
 }
 
 .modal-form-input {
-    border: 1px solid #2e2f4240;
+    border: 1px solid #2E2F4266;
+    letter-spacing: 0.02em;
     border-radius: 4px;
     padding: 8px 38px;
     width: 100%;
@@ -78,7 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #2e2f4240;
+    border: 1px solid #2e2f4266;
     border-radius: 24px;
     width: 24px;
     height: 24px;
@@ -107,7 +108,7 @@
 .modal-form {
 }
 
-.modal-form-field {
+.modal-form-field:not(:last-child) {
     margin-bottom: 8px;
 }
 
@@ -211,7 +212,8 @@
     transition: background-color 250ms ease-in-out;
 }
 
-.modal .button:hover {
+.modal .button:hover,
+.modal .button:focus {
     background-color: #404bbf;
 }
 

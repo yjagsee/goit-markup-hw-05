@@ -106,6 +106,7 @@
 .footer-subscription {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
 }
 
 .footer-form {
