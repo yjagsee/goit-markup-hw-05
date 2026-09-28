@@ -108,7 +108,7 @@
 .modal-form {
 }
 
-.modal-form-field:not(:last-child) {
+.modal-form-field {
     margin-bottom: 8px;
 }
 
@@ -223,4 +223,8 @@
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+}
+
+.modal-form-field.comment-field {
+    margin-bottom: 0;
 }
